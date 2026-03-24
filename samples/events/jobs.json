@@ -1,0 +1,12 @@
+[
+  {
+    "event_type": "job_status_changed",
+    "source_system": "IBMi_BATCH",
+    "job_name": "NIGHTLY_CUT_PLAN",
+    "job_user": "QPGMR",
+    "job_number": "123456",
+    "old_status": "RUNNING",
+    "new_status": "COMPLETED",
+    "completed_at": "2026-03-23T05:30:00Z"
+  }
+]
