@@ -1,0 +1,12 @@
+[
+  {
+    "event_type": "order_created",
+    "source_system": "IBMi_ORDER",
+    "order_id": "ORD1001",
+    "customer_id": "CUST5001",
+    "status": "CREATED",
+    "total_amount": 125.50,
+    "currency": "USD",
+    "created_at": "2026-03-23T10:00:00Z"
+  }
+]
