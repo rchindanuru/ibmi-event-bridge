@@ -1,0 +1,12 @@
+[
+  {
+    "event_type": "inventory_adjusted",
+    "source_system": "IBMi_INV",
+    "sku": "SUIT-NAVY-40R",
+    "location": "FACTORY1",
+    "quantity_change": -5,
+    "new_quantity": 95,
+    "reason": "ALLOCATED_TO_ORDER",
+    "event_time": "2026-03-23T10:01:00Z"
+  }
+]
