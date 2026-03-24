@@ -17,3 +17,20 @@ Under `samples/events` you will find:
 
 These files show how IBM i business events can be represented as JSON messages ready for streaming platforms and analytics.
 
+## Python Kafka producer example
+
+The script at `producers/python/kafka_producer_example.py` demonstrates how to send these events to a Kafka topic.
+
+Basic idea:
+
+- Read JSON events from the `samples/events` folder.
+- For each event, send a message to a Kafka topic (for example, `ibmi-events`).
+
+If you have Python and kafka-python installed, and Kafka running locally:
+
+```bash
+pip install kafka-python
+python producers/python/kafka_producer_example.py
+```
+
+If `kafka-python` is not installed, the script will just print the messages it would send. This is still useful for seeing the event format.
